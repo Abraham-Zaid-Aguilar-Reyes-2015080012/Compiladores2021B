@@ -13,7 +13,6 @@ void count();
 %}
 
 %%
-"/*"			{ comment(); }
 
 "auto"			{ count(); return(AUTO); }
 "break"			{ count(); return(BREAK); }
@@ -117,11 +116,6 @@ yywrap()
 {
 	return(1);
 }
-
-
-comment()
-{
-	char c, c1;
 
 loop:
 	while ((c = input()) != '*' && c != 0)
