@@ -27,9 +27,9 @@ entrada: entrada linea
 ;
 linea: '\n'
 ;
-valor: CONSTANT				{ printf("Resultado = %d\n", $1); }
+valor: CONSTANTE			{ printf("Resultado = %d\n", $1); }
 ;
-identificador: CONSTANT 		{ printf("Id %c\n",$1); }
+identificador: IDENTIFICADOR 		{ printf("Id %c\n",$1); }
 ;
 %%
 
