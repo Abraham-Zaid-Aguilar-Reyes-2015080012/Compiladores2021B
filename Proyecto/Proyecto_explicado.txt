@@ -1,4 +1,0 @@
-Durante el desarrollo de 6 meses se ha logrado separar o mas bien clasificar las palabras que se obtienen con el proyecto.l, sin embargo 
-proyecto.y no hace nada, debido a que buscando ejemplos de como hacerlo incluian palabras que supongo eran reservadas o funciones que no
-se comprendieron, por lo cual solo se intento pobremente usar los tokens para realizar un analisis sitactico, lo cual como se observa no
-esta ni cerca de hacerlo.
